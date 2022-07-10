@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Joan", serif;
+  color: #f49f1c;
+  font-weight: 800;
+  transition: all 0.5s;
+}
+
+body {
+  background-color: #030e4f;
+  transition: none;
+}
+
+/* Colors */
+/* navy: #030E4F */
+/* orange: #F49F1C */
+
+/* Title */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.title-container > h1 {
+  font-size: 3.5rem;
+}
+.title-container > hr {
+  width: 15%;
+  height: 0.1rem;
+  margin-top: 0.5rem;
+  background-color: #f49f1c;
+  border-radius: 0.1rem;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Tabs Names */
+.tabs-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 4rem;
+  padding: 1rem;
+}
+
+.tab-name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.4rem;
+  background-color: #030e4f;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.tab-name:hover {
+  color: #030e4f;
+  background-color: #f49f1c;
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+}
+
+.active::before {
+  content: "|";
+  color: #f49f1c;
+  margin-right: 2rem;
+}
+
+/* Tabs Details */
+
+.tabs-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 3rem 3rem 3rem;
+}
+
+#tabs-job {
+  font-size: 2.3rem;
+  margin-bottom: 0.2rem;
+}
+
+#tabs-name {
+  border-radius: 0.5rem;
+  width: fit-content;
+  background-color: #1408bf;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#tabs-tenure {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.personTab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+
+.personTab::before {
+  content: "<<";
+  margin-right: 1.8rem;
+}
+
+#more-info {
+  width: 60%;
+  align-self: center;
+  background-color: #f49f1c;
+  color: #030e4f;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Change Mode */
+
+.oblical {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .tab-name > p {
+    font-size: 1.2rem;
+  }
+}
