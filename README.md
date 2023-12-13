@@ -31,6 +31,8 @@ npm start
 
 ## **Version History**
 
+- 0.3
+  - Analyzed the code to gather to-do's and added Docker.
 - 0.2
   - Fixed react logic and improved how the website looks/works
   - See [commit change](https://github.com/axense234/Tabs-REACT/commits/master) or See [release history](https://github.com/axense234/Tabs-REACT/releases)
