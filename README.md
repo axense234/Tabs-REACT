@@ -20,9 +20,20 @@ git clone https://github.com/axense234/Tabs-REACT.git
 
 ### Executing program
 
+- **Using NPM**
+
 ```
 npm install
 npm start
+```
+
+- **Using Docker**
+
+```
+docker build -t tabs-react:0.3.0 .
+docker stop tabs-react-app
+docker rm tabs-react-app
+docker run -d -p 3000:3000 --name tabs-react-app tabs-react:0.3.0
 ```
 
 ## **Authors**
