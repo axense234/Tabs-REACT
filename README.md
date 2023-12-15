@@ -11,6 +11,8 @@ A simple React Project that focuses on the basics of react by displaying some pe
 ### Dependencies
 
 - Check package.json for details.
+- Git
+- Docker(optional)
 
 ### Installing
 
